@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.form-btn{
+    color: white;
+    background-color: #198754;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.1;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+.form-btn:hover{
+    color: #ffffff;
+    background-color: #58605c;
+    transform: scale(1.1);
+}
+section{
+    padding: 100px 20px;
+}
+.main{
+    width: 100%; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/Untitled\ design.png);
+    background-attachment: fixed;
+    background-position: center;    
+    padding-left: 4em;
+}
+.main h2{
+    color:rgb(255, 255, 255) ;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #198754;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h2 span strong{
+    color: #212529;
+    font-size: 70px;
+}
+
+.main h3{
+    color: #545454;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.main-btn {
+    color: white;
+    background-color: #212529;
+    text-decoration: none;
+    font-size: 1.1;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    color: #ffffff;
+    background-color: #198754;
+    transform: scale(1.1);
+}
+
+.social-icon a{
+    color: #198754;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:  #212529;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #198754;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform:  scale(1.1);
+}
+
+.icon{
+    color: white;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.projects {
+    background-color: #d9d9d9 ; 
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: #198754;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image {
+    opacity: 0.9;
+
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details {
+    text-decoration: none;
+    color: #ffffff;
+}
+.more-details:hover{
+    color: #212529;
+}
+
+.footer{
+    background-color: #212529; 
+    color:  #d9d9d9;
+    padding: 1.7em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-size: 600;
+}
+.footer-title span{
+    color: #d9d9d9;
+}
+.footer-social a{
+    color: white;
+    font-size: 1em;
+    padding: 0 12px 0 0;
+    
+}
+
+@media (max-width:1740px){
+    header{
+        padding: 14px 2%;
+    }
+    .main{
+        left: 2%;
+        transition: .2s;
+    }
+
+    .navigation a{
+        padding-left: 15px;
+    }
+
+    .title{
+        font-size: 1.8;
+    }
+
+    .section{
+        padding: 80px 30px;
+    }
+
+    .main-content h2{
+        font-size: 1.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.8em;
+    }
+    
+    .content{
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+}
+    
+
+
